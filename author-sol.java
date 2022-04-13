@@ -15,7 +15,7 @@ public class Main {
 		T = fs.nextInt();
 		for(int tc = 0; tc < T; tc++) {
             
-            //input
+           		 //input
 			int D = fs.nextInt(), d = fs.nextInt(), P = fs.nextInt(), Q = fs.nextInt();
 			
 			//view the image in this repository for the derivation of the formula
@@ -29,7 +29,7 @@ public class Main {
 			long remSum = rem * (a + n * diff);
 			long ans = APSum + remSum;
             
-            //output
+            		//output
 			out.println(ans);
             
 		}
